@@ -12,8 +12,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Initialize an empty body for the email
     $emailBody = '';
 
-    // Iterate through $key $_POST array to collect form data
-    foreach ($_POST as  => $value) {
+    // Iterate through the $_POST array to collect form data
+    foreach ($_POST as $key => $value) {
         // Append form field name and its value to the email body
         $emailBody .= ucfirst($key) . ': ' . $value . '<br>';
     }
